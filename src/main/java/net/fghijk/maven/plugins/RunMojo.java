@@ -54,7 +54,7 @@ public class RunMojo extends AbstractMojo {
 			scriptFile = File.createTempFile("fghijk-bash-plugin", ".sh.tmp");
 
 			try (PrintWriter writer = new PrintWriter(scriptFile)) {
-				writer.print(scriptFile);
+				writer.print(script);
 			}
 
 			if (log.isInfoEnabled()) {

@@ -5,14 +5,26 @@
 	<parent>
 		<groupId>net.fghijk.maven.poms</groupId>
 		<artifactId>fghijk-maven-plugin-root-pom</artifactId>
-		<version>0.1</version>
+		<version>0.1-SNAPSHOT</version>
 	</parent>
 
 	<groupId>net.fghijk.maven.plugins</groupId>
 	<artifactId>fghijk-bash-plugin</artifactId>
-	<version>0.1</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>FGHIJK Bash Maven Plugin</name>
 	<description>Plugin to execute bash scripts</description>
+	
+	<properties>
+		<fghijk.repos.snapshots.url>http://nexus.fghijk.net/content/repositories/snapshots</fghijk.repos.snapshots.url>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>snapshots</id>
+			<name>FGHIJK Snapshots</name>
+			<url>${fghijk.repos.snapshots.url}</url>
+		</repository>
+	</repositories>
 </project>

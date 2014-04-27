@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>net.fghijk.maven.poms</groupId>
 		<artifactId>fghijk-maven-plugin-root-pom</artifactId>
-		<version>0.1-SNAPSHOT</version>
+		<version>0.1</version>
 	</parent>
 
 	<groupId>net.fghijk.maven.plugins</groupId>
 	<artifactId>fghijk-bash-plugin</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>FGHIJK Bash Maven Plugin</name>

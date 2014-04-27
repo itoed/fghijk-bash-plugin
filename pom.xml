@@ -25,9 +25,6 @@
 			<id>snapshots</id>
 			<name>FGHIJK Snapshots</name>
 			<url>${fghijk.repos.snapshots.url}</url>
-			<snapshots>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
 		</repository>
 	</repositories>
 </project>

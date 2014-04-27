@@ -15,7 +15,7 @@
 
 	<name>FGHIJK Bash Maven Plugin</name>
 	<description>Plugin to execute bash scripts</description>
-	
+
 	<properties>
 		<fghijk.repos.snapshots.url>http://nexus.fghijk.net/content/repositories/snapshots</fghijk.repos.snapshots.url>
 	</properties>
@@ -25,6 +25,9 @@
 			<id>snapshots</id>
 			<name>FGHIJK Snapshots</name>
 			<url>${fghijk.repos.snapshots.url}</url>
+			<snapshots>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
 		</repository>
 	</repositories>
 </project>
